@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    margin-left: 1px;
+
+}
+
+#div-apresentacao {
+    background-color: #96aa92;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    margin: 0px;
+    padding: 5px;
+}
+
+#div-habilidades {
+    background-color: #EEE0CB;
+ 
+}
+
+h4, ul {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0px;
+
+}
+
+#div-outras-infos {
+    background-color: #BAA898;
+    padding-bottom: 100px;
+
+}
