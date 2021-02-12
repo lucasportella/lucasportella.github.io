@@ -1,39 +1,136 @@
 body {
     background-color: white;
-    margin-left: 1px;
+    margin: 0px;
 
 }
 
 #div-apresentacao {
-    background-color: #96aa92;
+    background-color: silver;
+
+    height: 400px;
 
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    left:585px;
+    top: 50px;
 }
+
+h3 {
+    position: absolute;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    left:587px;
+    top: 100px;
+}
+
+
+.foto-lucas {
+    width: 250px;
+    border-radius: 50%;
+    border: rgb(109, 106, 106) solid 3px;
+    position: absolute;
+    margin: 10px;
+    left: 250px;
+    top: 50px;
+
+    
+}
+
+#texto {
+    position: absolute;
+    width: 400px;
+    top: 160px;
+    left: 583px;
+}
+
 p {
     font-family: 'Arial Narrow Bold', sans-serif;
     text-align: justify;
     margin: 0px;
     padding: 5px;
+
+}
+
+
+hr {
+    margin: 0px;
 }
 
 #div-habilidades {
-    background-color: #EEE0CB;
+    background-color: rgb(218, 221, 223);
+    height: 400px;
+    padding-top: 20px;
  
 }
 
-h4, ul {
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+.engrenagem {
+    position: absolute;
+    width: 200px;
+    left: 900px;
+    top: 450px;
+}
+
+
+h4 {
+position: absolute;
+font-family: 'Open Sans';
+font-weight: 500;
+font-size: 38px;
+left: 375px;
+bottom: 70px;
+}
+
+li {
+    margin: 20px;
+}
+.ul-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
     line-height: 25px;
     margin: 0px;
+    position: absolute;
+    font-weight: lighter;
+    left: 200px;
+    top: 525px;
+}
 
+.ul-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    margin: 0px;
+    position: absolute;
+    font-weight: lighter;
+    left: 550px;
+    top: 525px;
 }
 
 #div-outras-infos {
-    background-color: #BAA898;
-    padding-bottom: 100px;
+    background-color: #bdab9c;
+    height: 250px;
 
+}
+
+.contato {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 38px;
+    top: 900px;
+}
+
+.email {
+    position: absolute;
+}
+
+.linkedin {
+    position: absolute;
+}
+
+.github {
+    position: absolute;
 }
