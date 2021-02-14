@@ -1,5 +1,5 @@
-body {
-    margin: 0px;
+* {
+    margin: 0%;
 }
 
 #div-apresentacao {
@@ -7,29 +7,52 @@ body {
     margin: 0px;
     padding-bottom: 1px;
 
+
 }
 
 .img-lucas {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    vertical-align: auto;
+
 }
 
 .div-texto-apresentacao {
-    max-width: 50%;
+    max-width: 35%;
     display: inline-block;
+    margin-left: 2%;
+    position: absolute;
+    top: 15%;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+
+
+
+
 
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
+
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500px;
+    margin-bottom: 4%;
+    margin-left: 2px;
+
 }
 
 .div-texto-apresentacao p {
     text-align: justify;
+    margin-left: 2px;
 }
 
 
@@ -45,6 +68,7 @@ h3 {
 
 p {
     font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
 
 }
 
