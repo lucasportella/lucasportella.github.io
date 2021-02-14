@@ -4,10 +4,7 @@
 
 #div-apresentacao {
     background-color: silver;
-    margin: 0px;
-    padding-bottom: 1px;
-
-
+    padding: 30px;
 }
 
 .img-lucas {
@@ -15,25 +12,19 @@
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: 5%;
-    position: relative;
     vertical-align: auto;
-
+    width: 30%;
 }
 
 .div-texto-apresentacao {
     max-width: 35%;
     display: inline-block;
     margin-left: 2%;
-    position: absolute;
-    top: 15%;
     margin-left: 50px;
     margin-bottom: 5px;
     text-align: left;
-
-
-
-
-
+    position: relative;
+    bottom: 120px;
 }
 
 h1 {
@@ -80,34 +71,40 @@ hr {
 #div-habilidades {
     background-color: rgb(218, 221, 223);
     margin: 0px;
-    padding: 1px 1px;
+    padding: 84px
  
 }
 
+h4 {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+    bottom: 55px;
+    left: 40px;
+    }
+
 .img-engrenagem {
     width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    bottom: 30px;
 }
 
 
-h4 {
-font-family: 'Open Sans';
-font-weight: 500;
-font-size: 38px;
+.ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
 }
 
 li {
     margin: 20px;
-}
-.ul-1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: lighter;
-}
-
-.ul-2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: lighter;
 }
 
 #div-outras-infos {
@@ -122,6 +119,15 @@ li {
     font-size: 38px;
 }
 
+.div-whats-e-email {
+    display: inline-block;
+ 
+}
+
+.div-linkedin-e-github {
+    display: inline-block;
+
+}
 
 .img-github {
     width: 40px;
