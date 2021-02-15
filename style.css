@@ -117,11 +117,14 @@ li {
     font-family: 'Open Sans';
     font-weight: 500;
     font-size: 38px;
+    margin-left: 10%;
 }
 
 .div-whats-e-email {
-    text-align: center;
     display: inline-block;
+    margin-left: 30%;
+    position: relative;
+    bottom: 12px;
 
 }
 
@@ -129,10 +132,16 @@ li {
     margin-bottom: 5%;
 }
 
+.div-email {
+    position: relative;
+    top: 3px;
+}
 
 .div-linkedin-e-github {
-    text-align: center;
     display: inline-block;
+    margin-left: 7%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
  
 
 }
@@ -161,6 +170,7 @@ li {
     bottom: 15px;
 }
 
+
 .div-linkedin a {
     display: inline-block;
     position: relative;
@@ -179,4 +189,5 @@ li {
 
 .img-github {
     width: 40px;
+    margin: 3px;
 }
