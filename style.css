@@ -4,27 +4,34 @@
     padding: 0%;
 }
 
+
+
+
+
+
+
 #div-apresentacao {
     background-color: rgb(201, 201, 201);
-    padding: 3%;
     text-align: center;
+    padding: 5%;
 }
 
 .img-lucas {
     display: inline-block;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    vertical-align: middle;
+    width: 250px;
+    border-radius: 50%;
+    border: rgb(151, 151, 151) solid 3px; 
 }
 
 .div-texto-apresentacao {
-    max-width: 35%;
+    width: 35%;
     display: inline-block;
-    margin-left: 50px;
-    margin-right: 10%;
+    margin-left: 4%;
     margin-bottom: 5px;
     text-align: left;
-    position: relative;
-    bottom: 120px;
+    vertical-align: middle;
+
 }
 
 h1 {
@@ -47,11 +54,6 @@ h3 {
 }
 
 
-.img-lucas {
-    width: 250px;
-    border-radius: 50%;
-    border: rgb(109, 106, 106) solid 3px; 
-}
 
 p {
     font-family: 'Arial Narrow Bold', sans-serif;
