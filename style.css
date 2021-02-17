@@ -62,11 +62,6 @@ p {
 }
 
 
-hr {
-    margin: 0px;
-}
-
-
 
 
 
@@ -78,27 +73,19 @@ hr {
 
 #div-habilidades {
     background-color: rgb(218, 221, 223);
-    margin: 0px;
-    padding: 84px
- 
+    padding: 5%;
+    text-align: center;
 }
+
 
 h4 {
     font-family: 'Open Sans';
     font-weight: 500;
     font-size: 40px;
-    position: relative;
-    bottom: 55px;
-    left: 40px;
-    }
-
-.img-engrenagem {
-    width: 200px;
-    display: inline-block;
-    position: relative;
-    left: 400px;
-    bottom: 30px;
+    display: block;
+    text-align: left;
 }
+
 
 
 .ul {
@@ -106,17 +93,19 @@ h4 {
     font-size: 30px;
     font-weight: lighter;
     display: inline-block;
-    position: relative;
-    left: 200px;
-    bottom: 50px;
+    margin-left: 5%;
+
 }
 
 li {
     margin: 20px;
 }
 
-
-
+.img-engrenagem {
+    width: 200px;
+    display: inline-block;
+    margin-left: 10%;
+}
 
 
 
