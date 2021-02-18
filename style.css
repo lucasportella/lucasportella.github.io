@@ -127,27 +127,35 @@ li {
 /* h4 estilizado na div-habilidades */
 
 .div-whats-e-linkedin {
-    text-align: center;
+    text-align: left;
+
 }
 
 .div-email-e-github {
     text-align: center;
+
 }
 
 .div-whatsapp {
     display: inline-block;
+    margin-right: 11.7%;
+    margin-left: 32.7%;
 }
 
 .div-linkedin {
     display: inline-block;
+
+
 }
 
 .div-email {
     display: inline-block;
+    margin-right: 5%;
 }
 
 .div-github {
     display: inline-block;
+
 }
 
 .div-whatsapp p {
