@@ -55,9 +55,9 @@ h3 {
 
 
 
-p {
+p, a {
     font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
 
 }
 
@@ -113,87 +113,74 @@ li {
 
 
 
+
 #div-outras-infos {
     background-color: #bdab9c;
-    padding-bottom: 40px;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    text-align: center;
 
 }
 
-.contato {
-    font-family: 'Open Sans';
-    font-weight: 500;
-    font-size: 38px;
-    margin-left: 10%;
+/* h4 estilizado na div-habilidades */
+
+.div-whats-e-linkedin {
+    text-align: center;
 }
 
-.div-whats-e-email {
-    display: inline-block;
-    margin-left: 30%;
-    position: relative;
-    bottom: 12px;
+.div-email-e-github {
 
 }
 
 .div-whatsapp {
-    margin-bottom: 5%;
-}
-
-.div-email {
-    position: relative;
-    top: 3px;
-}
-
-.div-linkedin-e-github {
     display: inline-block;
-    margin-left: 7%;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 17px;
- 
-
 }
 
 .div-linkedin {
-    margin-bottom: 5%;
-}
-
-.img-gmail {
-    width: 37px;
-}
-
-.div-email p {
     display: inline-block;
-    position: relative;
-    bottom: 9px;
 }
 
-.img-whatsapp {
-    width: 40px;
+.div-email {
+    display: inline-block;
+}
+
+.div-github {
+    display: inline-block;
 }
 
 .div-whatsapp p {
     display: inline-block;
-    position: relative;
-    bottom: 15px;
 }
-
-
-.div-linkedin a {
+.div-email p {
     display: inline-block;
-    position: relative;
-    bottom: 19px;
 }
+
+
+
+
+
+
+.img-gmail {
+    width: 37px;
+    display: inline-block;
+}
+
+
+.img-whatsapp {
+    width: 40px;
+    display: inline-block;
+}
+
 
 .img-linkedin {
     width: 45px;
+    display: inline-block;
 }
 
-.div-github a {
-    display: inline-block;
-    position: relative;
-    bottom: 16px;
-}
 
 .img-github {
     width: 40px;
-    margin: 3px;
+    display: inline-block;
 }
