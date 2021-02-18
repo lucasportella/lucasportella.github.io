@@ -4,27 +4,35 @@
     padding: 0%;
 }
 
+
+
+
+
+
+
 #div-apresentacao {
     background-color: rgb(201, 201, 201);
-    padding: 3%;
     text-align: center;
+    padding: 5%;
 }
 
 .img-lucas {
     display: inline-block;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    vertical-align: middle;
+    width: 250px;
+    border-radius: 50%;
+    border: rgb(151, 151, 151) solid 3px; 
+    margin-right: 2%;
 }
 
 .div-texto-apresentacao {
-    max-width: 35%;
+    width: 35%;
     display: inline-block;
-    margin-left: 50px;
-    margin-right: 10%;
+    margin-left: 2%;
     margin-bottom: 5px;
     text-align: left;
-    position: relative;
-    bottom: 120px;
+    vertical-align: middle;
+
 }
 
 h1 {
@@ -47,21 +55,11 @@ h3 {
 }
 
 
-.img-lucas {
-    width: 250px;
-    border-radius: 50%;
-    border: rgb(109, 106, 106) solid 3px; 
-}
 
-p {
+p, a {
     font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
 
-}
-
-
-hr {
-    margin: 0px;
 }
 
 
@@ -76,27 +74,19 @@ hr {
 
 #div-habilidades {
     background-color: rgb(218, 221, 223);
-    margin: 0px;
-    padding: 84px
- 
+    padding: 5%;
+    text-align: center;
 }
+
 
 h4 {
     font-family: 'Open Sans';
     font-weight: 500;
     font-size: 40px;
-    position: relative;
-    bottom: 55px;
-    left: 40px;
-    }
-
-.img-engrenagem {
-    width: 200px;
-    display: inline-block;
-    position: relative;
-    left: 400px;
-    bottom: 30px;
+    display: block;
+    text-align: left;
 }
+
 
 
 .ul {
@@ -104,16 +94,19 @@ h4 {
     font-size: 30px;
     font-weight: lighter;
     display: inline-block;
-    position: relative;
-    left: 200px;
-    bottom: 50px;
+    margin-left: 5%;
+
 }
 
 li {
     margin: 20px;
 }
 
-
+.img-engrenagem {
+    width: 200px;
+    display: inline-block;
+    margin-left: 10%;
+}
 
 
 
@@ -124,85 +117,84 @@ li {
 
 #div-outras-infos {
     background-color: #bdab9c;
-    padding-bottom: 40px;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    text-align: center;
 
 }
 
-.contato {
-    font-family: 'Open Sans';
-    font-weight: 500;
-    font-size: 38px;
-    margin-left: 10%;
+/* h4 estilizado na div-habilidades */
+
+.div-whats-e-linkedin {
+    text-align: center;
 }
 
-.div-whats-e-email {
-    display: inline-block;
-    margin-left: 30%;
-    position: relative;
-    bottom: 12px;
+.div-email-e-github {
+    text-align: center;
 
 }
 
 .div-whatsapp {
-    margin-bottom: 5%;
-}
-
-.div-email {
-    position: relative;
-    top: 3px;
-}
-
-.div-linkedin-e-github {
     display: inline-block;
-    margin-left: 7%;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 17px;
- 
-
 }
 
 .div-linkedin {
-    margin-bottom: 5%;
-}
-
-.img-gmail {
-    width: 37px;
-}
-
-.div-email p {
     display: inline-block;
-    position: relative;
-    bottom: 9px;
+
 }
 
-.img-whatsapp {
-    width: 40px;
+.div-email {
+    display: inline-block;
+
+}
+
+.div-github {
+    display: inline-block;
 }
 
 .div-whatsapp p {
     display: inline-block;
-    position: relative;
-    bottom: 15px;
 }
-
-
-.div-linkedin a {
+.div-email p {
     display: inline-block;
-    position: relative;
-    bottom: 19px;
 }
+
+
+
+.img-gmail {
+    width: 37px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+.img-whatsapp {
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 .img-linkedin {
     width: 45px;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
-.div-github a {
-    display: inline-block;
-    position: relative;
-    bottom: 16px;
-}
 
 .img-github {
     width: 40px;
-    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
+.divide {
+    padding: 0.8%;
 }
