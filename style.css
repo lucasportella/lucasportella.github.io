@@ -139,13 +139,12 @@ li {
 
 .div-whatsapp {
     display: inline-block;
-    margin-right: 11.7%;
-    margin-left: 32.7%;
+    margin-right: 12.2%;
+    margin-left: 32.2%;
 }
 
 .div-linkedin {
     display: inline-block;
-
 
 }
 
@@ -156,12 +155,10 @@ li {
 
 .div-github {
     display: inline-block;
-
 }
 
 .div-whatsapp p {
     display: inline-block;
-    vertical-align: middle;
 }
 .div-email p {
     display: inline-block;
@@ -169,30 +166,34 @@ li {
 
 
 
-
-
-
 .img-gmail {
     width: 37px;
     display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 
 .img-whatsapp {
     width: 40px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 
 .img-linkedin {
     width: 45px;
     display: inline-block;
+    vertical-align: middle;
+    
 }
 
 
 .img-github {
     width: 40px;
     display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 
