@@ -128,8 +128,7 @@ li {
 /* h4 estilizado na div-habilidades */
 
 .div-whats-e-linkedin {
-    text-align: left;
-
+    text-align: center;
 }
 
 .div-email-e-github {
@@ -139,8 +138,6 @@ li {
 
 .div-whatsapp {
     display: inline-block;
-    margin-right: 12.2%;
-    margin-left: 32.2%;
 }
 
 .div-linkedin {
@@ -150,7 +147,7 @@ li {
 
 .div-email {
     display: inline-block;
-    margin-right: 5%;
+
 }
 
 .div-github {
