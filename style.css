@@ -1,19 +1,17 @@
+
+
+@media screen and (min-width: 1000px) {
 * {
     margin: 0%;
     border: 0%;
     padding: 0%;
 }
 
-
-
-
-
-
-
 #div-apresentacao {
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(27, 24, 24);
     text-align: center;
     padding: 5%;
+    color: white;
 }
 
 .img-lucas {
@@ -197,4 +195,5 @@ li {
 
 .divide {
     padding: 0.8%;
+}
 }
