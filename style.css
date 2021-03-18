@@ -1,199 +1,22 @@
+@media screen and (max-width: 500px) {
 
+.div-texto-apresentacao {
 
-@media screen and (min-width: 1000px) {
-* {
-    margin: 0%;
-    border: 0%;
-    padding: 0%;
-}
-
-#div-apresentacao {
-    background-color: rgb(27, 24, 24);
-    text-align: center;
-    padding: 5%;
-    color: white;
 }
 
 .img-lucas {
-    display: inline-block;
-    vertical-align: middle;
-    width: 250px;
-    border-radius: 50%;
-    border: rgb(151, 151, 151) solid 3px; 
-    margin-right: 2%;
-}
-
-.div-texto-apresentacao {
-    width: 35%;
-    display: inline-block;
-    margin-left: 2%;
-    margin-bottom: 5px;
-    text-align: left;
-    vertical-align: middle;
-
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-
-}
-
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500px;
-    margin-bottom: 4%;
-    margin-left: 2px;
-
-}
-
-.div-texto-apresentacao p {
-    text-align: justify;
-    margin-left: 2px;
-}
-
-
-
-p, a {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 17px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-#div-habilidades {
-    background-color: rgb(218, 221, 223);
-    padding: 5%;
-    text-align: center;
-}
-
-
-h4 {
-    font-family: 'Open Sans';
-    font-weight: 500;
-    font-size: 40px;
-    display: block;
-    text-align: left;
-}
-
-
-
-.ul {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: lighter;
-    display: inline-block;
-    margin-left: 5%;
-
-}
-
-li {
-    margin: 20px;
+width: 10%;
 }
 
 .img-engrenagem {
-    width: 200px;
-    display: inline-block;
-    margin-left: 10%;
+    display: none;
+}
 }
 
-
-
-
-
-
-
-
-#div-outras-infos {
-    background-color: #bdab9c;
-    padding-top: 1%;
-    padding-right: 5%;
-    padding-bottom: 3%;
-    padding-left: 5%;
-    text-align: center;
+@media screen and (min-width: 500px) and (max-width: 1146px) {
 
 }
 
-/* h4 estilizado na div-habilidades */
+@media screen and (min-width: 1146px) {
 
-.div-whats-e-linkedin {
-    text-align: center;
-}
-
-.div-email-e-github {
-    text-align: center;
-
-}
-
-.div-whatsapp {
-    display: inline-block;
-}
-
-.div-linkedin {
-    display: inline-block;
-
-}
-
-.div-email {
-    display: inline-block;
-
-}
-
-.div-github {
-    display: inline-block;
-}
-
-.div-whatsapp p {
-    display: inline-block;
-}
-.div-email p {
-    display: inline-block;
-}
-
-
-
-.img-gmail {
-    width: 37px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-
-.img-whatsapp {
-    width: 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
-.img-linkedin {
-    width: 45px;
-    display: inline-block;
-    vertical-align: middle;
-    
-}
-
-
-.img-github {
-    width: 40px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-
-
-.divide {
-    padding: 0.8%;
-}
 }
